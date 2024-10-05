@@ -1,0 +1,13 @@
+train: /content/drive/MyDrive/Official Thesis/RiceLeaf_Yolov8_Version/train/images
+val: /content/drive/MyDrive/Official Thesis/RiceLeaf_Yolov8_Version/valid/images
+test: /content/drive/MyDrive/Official Thesis/RiceLeaf_Yolov8_Version/test/images
+
+nc: 8
+names: ['Bacterial_Leaf_Blight', 'Brown_Spot', 'HealthyLeaf', 'Leaf_Blast', 'Leaf_Scald', 'Narrow_Brown_Leaf_Spot', 'Neck_Blast', 'Rice_Hispa']
+
+roboflow:
+  workspace: hadiur-rahman-nabil-j0svj
+  project: riceleafdisease-2ra6r
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/hadiur-rahman-nabil-j0svj/riceleafdisease-2ra6r/dataset/1
